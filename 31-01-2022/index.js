@@ -6,27 +6,27 @@ var obj = {
      "students" : [ 
 	{
 	  "name" : "Brijesh Yadav",
-	  "marks" : 50
+	  "marks" : 61
 	},
 	{
-	  "name" : "Abishek Gupta",
+	  "name" : "Divya Singh",
 	  "marks" : 90
 	},
 	{
-	  "name" : "Navneet Vishwakarma",
-	  "marks" : 63
+	  "name" : "Prakhar",
+	  "marks" : 52
 	},
 	{
 	  "name" : "ranjeet",
-	  "marks" : 71
+	  "marks" : 67
 	},
 	{
-	  "name" : "Raju",
-	  "marks" : 10
-	},
-	{
-	  "name" : "Akriti",
+	  "name" : "RaviRanjan",
 	  "marks" : 37
+	},
+	{
+	  "name" : "AKM Mishra",
+	  "marks" : 41
 	},
 
         ]

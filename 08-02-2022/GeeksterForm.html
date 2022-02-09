@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Application Form</h2>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <p>Full Name*</p>
+                    <input type="text" name="nm" value=" " placeholder="Enter your Name"/>
+                </td>
+                <td>
+                    <p>Email*</p>
+                    <input type="email" name="em" value=" " placeholder="Enter your Email" pattern=".+@gmail\.com" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Phone*</p>
+                    <select>
+                        <option>+91</option>
+                        <option>+92</option>
+                        <option>+93</option>
+                    </select>
+                    <input type="number" name="pn" value=" " placeholder="Enter your Phone Number" pattern="[0-9]{10}" />
+                </td>
+                <td>
+                    <p>Highest Degree*</p>
+                    <select name="degree">
+                        <option selected disabled>Select Highest Degree</option>
+                        <option>B.E or B.Tech CS/IT</option>
+                        <option>B.E or B.Tech other</option>
+                        <option>M.S or M.Tech CS/IT</option>
+                        <option>M.S or M.Tech other</option>
+                        <option>BCA</option>
+                        <option>MCA</option>
+                        <option>Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Year Of Completion*</p>
+                    <select name="Year">
+                        <option>2018</option>
+                        <option>2019</option>
+                        <option>2020</option>
+                        <option>2021</option>
+                        <option>2022</option>
+                        <option>2023</option>
+                    </select>
+                </td>
+                <td>
+                    <p>Programming Skill*</p>
+                    <select name="SL">
+                        <option selected disabled>Select Programming Skill Level</option>
+                        <option>No Coding Skill</option>
+                        <option>Basic Coding Skill</option>
+                        <option>Intermediate Coding Skill</option>
+                        <option>Good Coding Skill</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+
+        <p>
+            <input type="checkbox" name="check" value="a" />By Signing up, You agree to the terms and conditions of
+            geekster
+        </p>
+        <input type="submit" name="submit" />
+    </form>
+</body>
+
+</html>

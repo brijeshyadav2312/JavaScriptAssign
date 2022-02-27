@@ -1,0 +1,127 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.heading{
+    display: inline-block;
+    margin-top: 40px;
+}
+.left-help{
+    margin-top: 90px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.article1{
+    text-align: center;
+    color: white;
+    width: 300px;
+    height: 100%;
+    float: left;
+    background-color: rgb(1, 1, 37);
+}
+.article1-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+
+}
+.article2{
+    width: calc(100% - 300px);
+    float: right;
+    height: 100%;
+    text-align: center;
+    background-color: rgb(18, 18, 65);
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.row1 button{
+    outline: 0;
+    background-color: white);
+    border-radius: 0px;
+    border-color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.row1 button:hover{
+    background-color: rgb(177, 177, 177);;
+}
+.row1 > button{
+    font-weight: bold;
+    font-size: 20px;
+    width: 60px;
+}
+input, textarea {
+    background-color: rgb(18, 18, 65);
+  }
+input{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: 0;
+    color: white;
+    border: 0px;
+    font-size: 30px;
+    margin-top: 70px;
+    width: 292px;
+    height: 50px;
+    text-align: end;
+}
+.container{
+    margin-top: 20px;
+}
+.container-child{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    gap: 1rem;
+    font-size: 2em;
+}
+.container-child span{
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    margin: 8px 0px;
+    color: white;
+    background-color: rgb(80, 86, 163);
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.container-child1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    gap: 1rem;
+    font-size: 2em;
+}
+.container-child1 span{
+    display: inline-block;
+    text-align: center;
+    margin: 8px 0px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(80, 86, 163);
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.container-child1 span:hover{
+    background-color: rgb(1, 1, 37);
+}
+.container-child span:hover{
+    background-color: rgb(18, 18, 65);
+    box-shadow: 2px 2px 100% white;
+}
+.container-child1 > p{
+    display: inline-block;
+    text-align: center;
+    margin: 8px 0px;
+    background-color: gray;
+    width: 140px;
+    cursor: pointer;
+}

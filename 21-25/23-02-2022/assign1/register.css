@@ -1,0 +1,102 @@
+body{
+    padding: 0%;
+    margin: 0;
+    background-color: lightgray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}   
+.form-background{
+    text-align: end;
+    float: right;
+    width: calc(100% - 552px);
+    height: 655px;
+}
+.help{
+    font-weight: bold;
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+.profile-image{
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(7, 7, 7);
+    width: 35px;
+}
+.email-sec{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    text-align: center;
+    gap: 2rem;
+    justify-content: center;
+
+}
+.email-sec div{
+    text-align: center;
+    display: flex;
+    
+}
+.left-side{
+    float: left;
+    /* background-color: rgb(0, 224, 168); */
+    background-image: url('https://themobilewallpaper.com/uploads/blog_images/Car-Abt-Audi-A6-TDI-Avant-2019-HD-Mobile-Wallpaper-1609336004.jpg');
+    background-color: #777;
+    width: 550px;
+    height: 657px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+.input-area{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+    row-gap: 1rem;
+    margin-top: 90px;
+}
+
+.login-button{
+    color: white;
+    font-size: 1.3rem;
+    width: 350px;
+    height: 45px;
+    border: none;
+    background-color: black;
+    cursor: pointer;
+}
+.login-button:hover{
+    font-size: 1.3rem;
+    background-color: rgb(32, 32, 32);
+    border: 1px solid black;
+}
+.email-sec input{
+    font-size: 1.1rem;
+    width: 300px;
+    height: 45px;
+    border-radius: 0%;
+    outline: 0ch;
+    border: .8px solid;
+    border-color: #777;
+}
+.sub-btn h4{
+
+    margin-left: 100px;
+}
+.forget-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.forget-sec h4 a{
+    margin-left: 6px;
+    text-decoration: none;
+    color: black;
+}
+.forget-sec a:hover{
+    color: blue;
+}

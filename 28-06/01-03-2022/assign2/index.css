@@ -1,0 +1,33 @@
+body{
+    margin: 0%;
+    background-color: #413c2c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8rem;
+    height: 100vh;
+}
+input{
+    border: 1px solid #777;
+    outline: 0px;
+    height: 40px;
+    font-size: 1.3rem;
+    width: 200px;
+    box-shadow: 1px 1px 10px black;
+    text-align: center;
+    font-weight: bold;
+}
+button{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(95, 22, 0);
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border: 1px solid;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(46, 9, 0);
+}
